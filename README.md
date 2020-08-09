@@ -1,2 +1,2 @@
-# JAVA---educational-institution---project
+# JAVA-educational-institution-project
 Console and MVC
