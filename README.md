@@ -1,2 +1,6 @@
 # JAVA-educational-institution-project
 Console and MVC
+
+The theme of the project is educational-institution.
+
+In the Console project, the user can input a limited number of students, teachers, subjects and exams. There is a new method for each input and the method can take as a parameter an List (example ArrayList). The user must enter the required data type and if he doesn't, the program will ask him again(a do while loop is used for that). After all the input data is entered, a new object is created and the constructor is called. All objects are saved in List-s (mostly the ArrayList is used).  There are classes created that represent checked exceptions that are thrown so that the program doesn't crash, instead it continues working and gives out a message if an exception occurred. The interface "Visokoskolska" is used to allow classes that do not inherit from each other to implement a common group methods(in this case the methods are "odrediProsjekOcjenaNaIspitima" and "filtrirajIspitePoStudentu". Lambda expressions are used to measure how fast is a for loop in comparison to a lambda stream (the for loop is faster if there are less objects to go through). The code is described using the Javadoc documentation.
