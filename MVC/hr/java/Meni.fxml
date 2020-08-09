@@ -1,0 +1,25 @@
+<MenuBar BorderPane.alignment="CENTER"xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.vjezbe.MeniController">
+>
+        <menus>
+          <Menu mnemonicParsing="false" text="Profesor">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#prikaziPretraguProfesora" text="Pretraga" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Student">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#prikaziPretraguStudenta" text="Pretraga" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Predmet">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#prikaziPretraguPredmeta" text="Pretraga" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Ispit">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#prikaziPretraguIspita" text="Pretraga" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
